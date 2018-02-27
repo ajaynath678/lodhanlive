@@ -5,8 +5,10 @@ function slideOverTo(elementID) {
 function scrollFunction() {
     if ($(this).scrollTop() > 50) {
         $('#back-to-top').fadeIn();
+        $('nav').addClass('shrink');
     } else {
         $('#back-to-top').fadeOut();
+        $('nav').removeClass('shrink');
     }
 }
 function backToTop() {
