@@ -4,17 +4,18 @@
     padding: 1% 5%;
     border: 0;
     font-size: 1.5em;
-    background-color: white;
+    background-color: black;
     box-shadow: 0 0 30px black;
 }
 .navbar-brand {
-    float: left;
+	float: left;
     min-height: 55px;
-    padding: 0 15px 5px;
+    padding: 0 0 0;
+	
 }
 .navbar-brand img {
-    height: 70px;
-    margin-top: -7px;
+    height: 150px;
+    margin-top: -15px;	
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
@@ -22,8 +23,8 @@
     background-color: #008dd3;
 }
 .navbar-inverse .navbar-nav li a {
-    color: #008dd3;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: black;
 }
 .navbar-inverse .navbar-nav li a:focus,
 .navbar-inverse .navbar-nav li a:hover {
@@ -112,7 +113,7 @@ nav.shrink a {
 }
 
 nav.shrink .navbar-brand ,nav.shrink .navbar-brand img{
-    display: none;
+    height:50px;
 }
 
 nav.shrink .navbar-toggle {
