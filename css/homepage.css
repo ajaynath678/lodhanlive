@@ -54,7 +54,7 @@
     margin: 4% auto;
 }
 footer {
-    background-color: #008dd3;
+    background-color: black;
     color: #FFFFFF;
     padding: 5%;
     width: 100%;
@@ -62,7 +62,12 @@ footer {
 .fa {
     padding: 15px;
     font-size: 25px;
-    color: #FFFFFF;
+    color: black;
+}
+footer .fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
 }
 .fa:hover {
     color: #D5D5D5;
@@ -119,4 +124,77 @@ nav.shrink .navbar-brand ,nav.shrink .navbar-brand img{
 nav.shrink .navbar-toggle {
     padding: 4px 5px;
     margin: 8px 15px 8px 0;
+}
+
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.lib-panel .col-md-6 {
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 50%;
+    border: 5px solid black;
+}
+.lib-panel .row {
+    padding: 20px;
+    background-color: whitesmoke;
+    transform: translateX(5%);
+    margin-top: 10%;
+    width:200%;
+    /*border: 2px solid black;*/
+}
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header span {
+    background: #f05133;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+        height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+    .box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
 }
